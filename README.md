@@ -34,6 +34,11 @@ pip install opencv-python numpy matplotlib Pillow PyYAML requests scipy
 ```
 
 ### Usage
+For livefeed
+```
+python3 MPTracker2.py
+```
+For specific video analysis
 ```
 python3 MPTracker2.py <videofile.mp4>
 ```
