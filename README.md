@@ -1,5 +1,5 @@
 # MPVTracker
-Real-Time Person, Car &amp; Truck Tracker using YOLOv5 A Python-based real-time object detection and tracking system using YOLOv5. Detects and tracks people, cars, and trucks from webcam or video input, with unique IDs, confidence scores, and automatic removal of lost targets.
+Real-Time Person, Car &amp; Truck Tracker using YOLOv5 A Python-based real-time object detection and tracking system using YOLOv5. Detects and tracks people, cars, and trucks from live cam or video input, with unique IDs, confidence scores, and automatic removal of lost targets.
 
 ![image](https://github.com/user-attachments/assets/8c400bcc-3fb5-4db4-ac8f-2421bfe523b6)
 
