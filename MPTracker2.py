@@ -22,7 +22,7 @@ else:
 cap = cv2.VideoCapture(source)
 
 if not cap.isOpened():
-    print(f"❌ Error: Unable to open video source: {source}")
+    print(f"Error: Unable to open video source: {source}")
     sys.exit()
 
 print(f"📹 Tracking from: {'Webcam' if source == 0 else source}")
@@ -30,7 +30,7 @@ print(f"📹 Tracking from: {'Webcam' if source == 0 else source}")
 while True:
     ret, frame = cap.read()
     if not ret:
-        print("✅ Done or no frames left.")
+        print("Done or no frames left.")
         break
 
     # Run detection
